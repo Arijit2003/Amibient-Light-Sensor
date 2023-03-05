@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Ambient Light Sensor</string>
+    <string name="lightSensor">Light Sensor</string>
+</resources>
