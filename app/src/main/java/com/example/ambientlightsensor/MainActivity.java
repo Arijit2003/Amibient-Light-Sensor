@@ -29,6 +29,9 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
                 //now register this sensor with SensorEventListener
                 sensorManager.registerListener(this,ambientLightSensor,SensorManager.SENSOR_DELAY_NORMAL);
             }
+            else{
+                Toast.makeText(this, "Ambient Light Sensor not detected", Toast.LENGTH_SHORT).show();
+            }
         }else{
             Toast.makeText(this, "Sensor service not detected", Toast.LENGTH_SHORT).show();
         }
